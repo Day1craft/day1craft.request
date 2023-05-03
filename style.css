@@ -13,8 +13,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    
+    padding-bottom: 100px;
 }
 
 .logo {
@@ -62,4 +61,13 @@ body {
 /* Heart beat animation */
 @keyframes beat{
 	to { transform: scale(1.4); }
+}
+
+
+
+@media screen and (min-width:768px) {
+.background-image {
+    height: auto;
+}
+
 }
